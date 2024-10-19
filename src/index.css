@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .container {
+    @apply mx-auto max-w-[90rem] px-6 sm:px-5 lg:px-7
+} */
+
+@layer base {
+    .darkMode {
+        @apply bg-black text-white;
+    }
+
+    .lightMode {
+        @apply bg-white text-black;
+    }
+}
